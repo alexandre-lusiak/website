@@ -30,7 +30,7 @@ function App() {
 
       <h1>Alexandre Lusiak</h1>
       <h2>Developpeur web full stack </h2>
-      <a href ="google.fr" >Voir mon CV </a>
+      <a href="CV.pdf" download>Cliquez pour télécharger</a>
       <section id='about' className='ME'></section>
       <h3>Qui suis-je ? </h3>
       <p>Je m'apelle Alexandre lusiak , 30ans </p>
