@@ -1,0 +1,11 @@
+.navigation-container{
+    display: flex;
+justify-content: space-evenly;
+
+}
+
+.item-navigation{
+    text-decoration: none;
+    color:black;
+  
+}
