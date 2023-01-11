@@ -1,4 +1,21 @@
-body  {
-  background-color:#696969;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 110vh;
+  font-family: 'Crimson Text', serif;
+
+
+
 }
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  
+}
+
+
+

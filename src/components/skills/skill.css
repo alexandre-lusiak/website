@@ -1,0 +1,32 @@
+
+h3{
+    font-size: 6rem;
+    color: rgb(223,143,20);;
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+  
+}
+
+.skill-item{
+    width: 500px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    height: 150px;
+    font-size: 1.5rem;
+   
+    font-size: 2.5rem;
+    margin:1.5rem;
+    
+}
+
+.title-skill{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(223,143,20);;
+}

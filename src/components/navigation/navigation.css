@@ -1,11 +1,39 @@
 .navigation-container{
     display: flex;
-justify-content: space-evenly;
-
-}
-
-.item-navigation{
-    text-decoration: none;
-    color:black;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+   
+  }
   
-}
+  .item-navigation , .item-navigation a{
+    text-decoration: none;
+    color:#DF981C;
+    font-size: 2rem; 
+    margin: 2rem 2rem 0 2rem;
+    animation :   all 0.5s linear;
+    list-style: none;
+    text-decoration: none;
+  }
+ 
+ 
+  .item-navigation:hover{
+    
+    animation: correct 1s infinite linear;
+  }
+
+  @keyframes correct {
+    0%{
+        transform:  scaleX(1);
+        
+    }
+
+    50%{
+        transform:  scale(1.1);
+    }
+
+    100%{
+        transform:  scale(1.2);
+    }
+  }
