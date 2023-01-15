@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+.carrousel{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 5%;
+    
+}
+
+
+.p-carousel-title{
+    color: rgb(255,140,0);
+    font-family: 'Roboto Flex', sans-serif;
+    padding: 2rem 0;
+    text-shadow: 5px 5px white;
+    background-color: rgb(255,140,0);
+}
+.p-carousel{
+    color: rgb(255,140,0);
+    font-weight: bold;
+    padding-top: 8rem;
+    font-size: 2rem;
+}
+
+

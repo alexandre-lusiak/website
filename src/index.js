@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+// import './index.css';
+import './style.css';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { MantineProvider } from '@mantine/core';
+import { NotificationsProvider } from '@mantine/notifications';
+import NEwApp from './newApp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <MantineProvider withNormalizeCSS withGlobalStyles>
+    
+      <NotificationsProvider><NEwApp/></NotificationsProvider>
+      </MantineProvider>
   </React.StrictMode>
 );
 

@@ -1,45 +1,56 @@
-h1{
-    font-size: 3rem;
+.title-contact{
+    text-align: center;
+    color:white;
+    margin-top: 20rem;
 }
-p{
-    font-size: 2rem;
-}
-.contact-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 1rem 0;
-    background-color: white;
-    align-items: center;
-    box-shadow:10px 10px 10px 10px black;
-    margin: 0 10rem;
-    border-radius: 2%;
-    padding: 1rem;
-   
+.p-contact{
+    color:white;
+    text-align: center;
 }
 
-.info , form  , img{
-    margin : 0rem 3rem;
+.contact-container{
+   display: grid;
+   grid-template-columns: (1fr,3);
+   grid-column: 1fr;
+   grid-template-areas: 
+        "A B C C"
+        
+        
+    ;
+   margin-top: 2rem;
+   color:white
 }
+
+.form{
+    grid-area: C;
+    margin-right: 2rem ;
+    color: white;
+}
+.map{
+    grid-area: B;
+    width: 500px;
+    height: 300px;
+}
+
 .info{
-    font-size: 2rem;
+    grid-area: A;
     line-height: 5;
     text-align: center;
     
 }
-span{
-    color:#DF8F14 ;
-}
 
-img{
-    width: 300px;
-}
-
-form{
+.c-btn{
+    width:110px;
+    height: 40px;
     display: flex;
-    flex-direction: column;
-    width: 300px;
-}
+    justify-content: center;
+      align-items: center;
+      background-color: rgb(255,140,0);
+      box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.137);
+      border-radius: 10px;
+    color:#000266;
+    }
+
 
 label{
     font-size: 1.5rem;

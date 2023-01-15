@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap');
+
+.menu{
+    margin-left:'8rem'
+}
+
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.burger-item{
+    text-decoration: none;
+    color: rgb(255,140,0);
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+
+}
+
+.burger-item:hover{
+   animation: pulse 5s ease-in-out infinite ;
+}
+
+@keyframes pulse {
+    0%{
+        background-color: rgb(255,140,0);
+        color: aliceblue
+    }
+
+    50%{
+        background-color: aliceblue;
+        color: rgb(255,140,0);
+    }
+
+    100%{
+        background-color: rgb(255,140,0);;
+        color: aliceblue}
+}

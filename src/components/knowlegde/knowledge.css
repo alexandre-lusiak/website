@@ -1,20 +1,39 @@
-
-
-.knowledge-container{
-    display: flex;
-    justify-content: left;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "A B"
+    ;
     
-}
-.route{
-    animation: rotate 8s infinite linear;
-    margin: 0.5rem;
-}
+  }
 
-@keyframes rotate {
-    0%{
-        transform: rotateY(0deg);
-    }
-    100%{
-        transform: rotateY(360deg);
-    }
+  .skill-one{
+    grid-area: A;
+  }
+ 
+  .skill-two{
+    grid-area: B;
+  }
+
+.skill-item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.title-skill{
+    color:rgba(255,140,0,0.6);
+    font-size: 1.8rem;
+}
+.title-skill-1{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color:white
+}
+.icon-skill{
+    display: flex;
+    flex-direction: row;
+    
 }

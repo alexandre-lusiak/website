@@ -2,89 +2,51 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
 
-.container{
-  text-align: "center";
+
+main {
+    margin:0;
+    padding: 0;
+
+}
+header{
+    
+}
+.me{
+
+    margin: 3rem 1rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.arrow{
+ color: rgb(255,140,0);;
+ animation: pulse-arrow 2s infinite linear ;
+ margin: auto;
  
 }
 
- .me {
-  /* border: 2px solid black; */
-  margin:0rem;
-  height:620px;
-  text-align: center;
+.hankle{
+    text-align: center;
+    padding-top: 1rem;
 }
 
-section{
-  text-align: center;
-}
+@keyframes pulse-arrow {
+    0%{
+        opacity: 0.3;
+    }
 
-/* h1,h2{
-  font-size: 3rem;
-  font-family: 'Roboto Condensed', sans-serif;}; */
+    33%{
+        opacity: 0.6;
+    }
 
-.me{
-width: 98.7%;
-font-size: 3rem;
-font-family: 'Crimson Text', serif;
-padding:1rem;
-line-height: 4;
-color: orangered;
-background-image: url("./assets/SCALA.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-}  
+    66%{
+        opacity: 0.8;
+    }
 
-.skills{
-  
-
-}
-h3{
-  font-size: 3rem;
-}
-
-ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-
-li{
-list-style-type: none;  
-}
-
-.contact{
-  margin-bottom: 3rem;
-}
-
-
-.arrow{
-animation: pulse 1.115s infinite linear;
-color: orange;
-margin-top: 5rem;
-}
-
-
-.footer{
-  display: flex;
-  justify-content: space-around;
-  background-color: #F0F8FF;
-  color:black
-}
-@keyframes pulse {
-
-  0%{
-    transform: scale(1);
-    opacity: 0.3;
-  }
-  50%{
-    transform: scale(1.3);
-    opacity: 0.8;
-  }
-
-  100%{
-    transform: scale(1.2);
-    opacity: 0.9;
-  }
-  
+    100%{
+        opacity: 0.8;
+    }
 }

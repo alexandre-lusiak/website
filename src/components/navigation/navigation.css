@@ -1,39 +1,87 @@
-.navigation-container{
-    display: flex;
-    background-color: white;
+
+.logo-nav{
+    height: 150px;
+    width:200px;
+}
+.link-nav{
+    font-weight: bold;
+    display: block;
     width: 100%;
-    z-index: 1;
-    height: 100px;
-   
-  }
-  
-  .item-navigation , .item-navigation a{
-    text-decoration: none;
-    color:#DF981C;
-    font-size: 2rem; 
-    margin: 2rem 2rem 0 2rem;
-    animation :   all 0.5s linear;
-    list-style: none;
-    text-decoration: none;
-  }
- 
- 
-  .item-navigation:hover{
-    
-    animation: correct 1s infinite linear;
-  }
+   text-decoration: none;
+   padding: 2rem 0;
+   color: gold;
+   font-size: 2rem;
+}
 
-  @keyframes correct {
-    0%{
-        transform:  scaleX(1);
+@media screen and (min-width: 760px) {
+    .navigation-container{
+        text-align: left;
+        margin-left:2rem ;
         
-    }
+        }
+        
+        .nav{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .item-navigation{
+            list-style-type: none;
+            color: black;
+            
+        }
+        
+        .item-navigation:hover .link-nav{
+            transform: scaleY(2);
+        }
+        
+        
+        .link-nav{
+            font-weight: bold;
+            display: block;
+            width: 100%;
+           text-decoration: none;
+           padding: 2rem 0;
+           color: gold;
+        }
+}
 
-    50%{
-        transform:  scale(1.1);
-    }
 
-    100%{
-        transform:  scale(1.2);
-    }
-  }
+
+@media screen and (min-width: 1040px) {
+    .navigation-container{
+        text-align: left;
+        margin-left:2rem ;
+    
+        
+        }
+        
+        
+        .nav{
+            margin: 0;
+            padding: 0;
+        }
+        .item-navigation{
+            list-style-type: none;
+            color: black;
+            
+        }
+        
+        .item-navigation:hover .link-nav{
+            transform: scaleY(2);
+        }
+        
+        
+        .link-nav{
+            font-weight: bold;
+            display: block;
+            width: 100%;
+           text-decoration: none;
+           padding: 2rem 0;
+           color: gold;
+        }
+}
+

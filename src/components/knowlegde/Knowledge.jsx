@@ -25,40 +25,17 @@ import { Modal } from '@mantine/core';
 const Knowledge = () => {
 
     return (
-        <div style={{display:'flex', flexDirection:'column'}}>
-            <div className='knowledge-container' >
-                {/* <IoPlanetSharp size={200} /> */}
-                    <div style={{display:'flex' ,flexDirection:'column'}}>
-                    <img src={SASS} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-                    <img src={HTML} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-                    <img src={REACT} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-                    <img src={TYPESCRIPT} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-                    </div>
-                    <div style={{display:'flex' ,flexDirection:'column'}}>
-                    <img src={PHP} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-                    <img src={SYMFONY} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-                    <img src={MYSQL} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-                    <img src={LOGONODEJS} className='route' style={{ widht: 100, height: 100 }} alt="logo-tech" />
-
+       
+                <div className='knwoledge-container'>
+                   <p><SiPhp color='' className='route' size={50} /></p>
+                   <p><FaSymfony className='route' size={50}/></p>
+                   <p><SiMysql className='route' size={50} /></p>
+                   <p><SiMongodb className='route' size={50} /></p>
+                   <p><IoLogoNodejs className='route' size={50}/></p>
+                   <p><FaReact className='route' size={50}/></p>
+                   <p><SiTypescript className='route' size={50} /></p>
                 </div>
-
-            </div>
-
-
-
-
-            {/* <ul>
-      <img src={SASS} style={{widht:100,height:100}} alt="logo-tech"/>
-      <img src={HTML} style={{widht:100,height:100}} alt="logo-tech"/>
-      <img src={REACT} style={{widht:100,height:100}} alt="logo-tech"/>
-      <img src={TYPESCRIPT} style={{widht:100,height:100}} alt="logo-tech"/>
-      <img src={PHP} style={{widht:100,height:100}} alt="logo-tech"/>
-      <img src={SYMFONY} style={{widht:100,height:100}} alt="logo-tech"/>
-      <img src={MYSQL} style={{widht:100,height:100}} alt="logo-tech"/>
-      <img src={LOGONODEJS} style={{widht:100,height:100}} alt="logo-tech"/>
-
-    </ul> */}
-                    </div>
+                  
     )
 }
 
